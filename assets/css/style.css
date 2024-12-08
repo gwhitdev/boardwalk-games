@@ -60,7 +60,8 @@ h2 {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     background-color: white;
-    color: var(--highlight-color)
+    color: var(--highlight-color);
+    
 }
 
 .custom-button-outline:hover {
@@ -81,6 +82,18 @@ h2 {
 #new-games .card,
 #fav-games .card {
     border: none;
+}
+
+/* Events */
+#student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    margin-bottom: 25px;
+    
+}
+
+#events .table-light * {
+    background: transparent;
 }
 
 /* Footer / Contact */
